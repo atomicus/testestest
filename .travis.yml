@@ -1,3 +1,6 @@
 language: objective-c
 xcode_project: TestOfTest.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TestOfTest
+script:
+  - xctool -project TestOfTest.xcodeproj -scheme TestOfTest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -project TestOfTest.xcodeproj -scheme TestOfTest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
