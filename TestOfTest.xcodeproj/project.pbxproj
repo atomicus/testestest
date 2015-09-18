@@ -14,6 +14,8 @@
 		E8F0B4C11BAC5B98003BF22E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0B4C01BAC5B98003BF22E /* Images.xcassets */; };
 		E8F0B4C41BAC5B98003BF22E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F0B4C21BAC5B98003BF22E /* LaunchScreen.xib */; };
 		E8F0B4D01BAC5B98003BF22E /* TestOfTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B4CF1BAC5B98003BF22E /* TestOfTestTests.m */; };
+		E8F0B4DB1BAC5BBE003BF22E /* TestsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B4DA1BAC5BBE003BF22E /* TestsObject.m */; };
+		E8F0B4DD1BAC5F78003BF22E /* TestsObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B4DC1BAC5F78003BF22E /* TestsObjectTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		E8F0B4C91BAC5B98003BF22E /* TestOfTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOfTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F0B4CE1BAC5B98003BF22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F0B4CF1BAC5B98003BF22E /* TestOfTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOfTestTests.m; sourceTree = "<group>"; };
+		E8F0B4D91BAC5BBE003BF22E /* TestsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestsObject.h; sourceTree = "<group>"; };
+		E8F0B4DA1BAC5BBE003BF22E /* TestsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestsObject.m; sourceTree = "<group>"; };
+		E8F0B4DC1BAC5F78003BF22E /* TestsObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestsObjectTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				E8F0B4C01BAC5B98003BF22E /* Images.xcassets */,
 				E8F0B4C21BAC5B98003BF22E /* LaunchScreen.xib */,
 				E8F0B4B31BAC5B98003BF22E /* Supporting Files */,
+				E8F0B4D91BAC5BBE003BF22E /* TestsObject.h */,
+				E8F0B4DA1BAC5BBE003BF22E /* TestsObject.m */,
+				E8F0B4DC1BAC5F78003BF22E /* TestsObjectTest.m */,
 			);
 			path = TestOfTest;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				E8F0B4BC1BAC5B98003BF22E /* ViewController.m in Sources */,
 				E8F0B4B91BAC5B98003BF22E /* AppDelegate.m in Sources */,
+				E8F0B4DB1BAC5BBE003BF22E /* TestsObject.m in Sources */,
 				E8F0B4B61BAC5B98003BF22E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F0B4DD1BAC5F78003BF22E /* TestsObjectTest.m in Sources */,
 				E8F0B4D01BAC5B98003BF22E /* TestOfTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
